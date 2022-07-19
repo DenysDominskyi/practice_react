@@ -1,0 +1,15 @@
+.ChildToParent {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    place-content: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: -85px;
+    background-color: #374976;
+
+    h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        text-shadow: 0 0 5px #fff;
+    }
+}

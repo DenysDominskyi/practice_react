@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
+import MainPage from './components/MainPage/MainPage';
+import Technologies from './components/Technologies/Technologies';
+import SendProps from './components/SendProps/SendProps';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<MainPage title="Here I learning React"/>} />
+          <Route path='technologies' element={<Technologies />} />
+          <Route path='send_props' element={<SendProps />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
