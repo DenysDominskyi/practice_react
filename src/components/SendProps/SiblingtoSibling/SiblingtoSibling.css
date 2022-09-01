@@ -1,0 +1,17 @@
+.SiblingtoSibling {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.5fr;
+  place-content: center;
+  height: 100vh;
+  width: 100%;
+  margin-top: -85px;
+  background-color: #4c65a4;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 82% 90%, 66% 100%, 47% 91%, 32% 100%, 16% 91%, 0 100%, 0 10%);
+          clip-path: polygon(100% 0, 100% 100%, 82% 90%, 66% 100%, 47% 91%, 32% 100%, 16% 91%, 0 100%, 0 10%);
+}
+.SiblingtoSibling h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 0 5px #fff;
+}/*# sourceMappingURL=SiblingtoSibling.css.map */

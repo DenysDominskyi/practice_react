@@ -1,0 +1,16 @@
+.ParentToChild {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.5fr;
+  place-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #293656;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.ParentToChild h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 0 5px #fff;
+}/*# sourceMappingURL=ParentToChild.css.map */

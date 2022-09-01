@@ -1,0 +1,27 @@
+.send-props-page {
+  min-height: 100vh;
+  width: 100%;
+}
+.send-props-page .pageNav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 0 20px 20px 0;
+  background: #527e95;
+  overflow: hidden;
+  z-index: 99;
+}
+.send-props-page .pageNav a {
+  padding: 25px;
+  color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.send-props-page .pageNav a:hover {
+  background: #6195b1;
+  transform: scale(1.2);
+}/*# sourceMappingURL=SendProps.css.map */

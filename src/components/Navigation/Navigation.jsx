@@ -1,4 +1,6 @@
-import './Navigation.scss'
+// import './Navigation.scss'
+import '../MQ/main.scss'
+
 import { NavLink } from 'react-router-dom'
 
 const Navigation = () => {
@@ -29,9 +31,18 @@ const Navigation = () => {
                     exact='true'
                     className='title-item'
                     activeclassname='active'
-                    to='/send_props'>
+                    to='/send_props'
+                >
                     <p>Send Props</p>
+                </NavLink>
 
+                <NavLink
+                    exact='true'
+                    className='title-item'
+                    activeclassname='active'
+                    to='/delicious'
+                >
+                    <p>Delicious</p>
                 </NavLink>
             </ul>
         </div>

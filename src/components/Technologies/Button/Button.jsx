@@ -12,9 +12,9 @@ const Button = () => {
     const [likes, setLikes] = useState(0)
 
     return (
-        <div className='buttons'>
+        <div className='buttons' >
             <button className={`btn ${toggleClassCheck}`}
-                    onClick={handleClick}
+                    onClick={(e)=>handleClick(e.target)}
             >Like</button>
 
             <button className='countBtn'

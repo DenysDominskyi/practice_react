@@ -1,0 +1,27 @@
+.delicious {
+    height: 100%;
+    padding: 0% 10%;
+    padding-top: 130px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgb(0, 66, 124), rgb(178, 219, 255));
+
+}
+
+.home {
+    h4 {
+        font-size: 1rem;
+        color: rgb(57, 57, 57);
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        color: rgb(57, 57, 57);
+        text-shadow: 0 0 3px #fff;
+        line-height: 2.5rem;
+        margin: 1.5rem 0rem;
+    }
+
+    a {
+        color: rgb(57, 57, 57);
+    }
+}

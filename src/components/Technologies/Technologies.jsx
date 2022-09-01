@@ -11,7 +11,7 @@ const Technologies = () => {
         <section className='techno-page'>
             <ul>
                 {technologies.techno.map(t => (
-                    <li key={t} className={`item`}>
+                    <li key={t} className='item'>
                         <div>{t}</div>
                         <Button />
                     </li>
